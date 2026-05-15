@@ -7,37 +7,92 @@
   "CD0": 0.03,
   "e": 0.84,
   "configuration_options": {
-    "flaps": ["clean", "takeoff", "landing"]
+    "flaps": [
+      "clean",
+      "takeoff",
+      "landing"
+    ]
   },
   "G_limits": {
     "normal": {
-      "clean": { "positive": 3.8, "negative": -1.5 },
-      "takeoff": { "positive": 2.0, "negative": -1.0 },
-      "landing": { "positive": 2.0, "negative": -1.0 }
+      "clean": {
+        "positive": 3.8,
+        "negative": -1.5
+      },
+      "takeoff": {
+        "positive": 2.0,
+        "negative": -1.0
+      },
+      "landing": {
+        "positive": 2.0,
+        "negative": -1.0
+      }
     },
     "utility": {
-      "clean": { "positive": 4.4, "negative": -1.5 },
-      "takeoff": { "positive": 2.0, "negative": -1.0 },
-      "landing": { "positive": 2.0, "negative": -1.0 }
+      "clean": {
+        "positive": 4.4,
+        "negative": -1.5
+      },
+      "takeoff": {
+        "positive": 2.0,
+        "negative": -1.0
+      },
+      "landing": {
+        "positive": 2.0,
+        "negative": -1.0
+      }
     },
     "aerobatic": {
-      "clean": { "positive": 6.0, "negative": -1.5 },
-      "takeoff": { "positive": 0.0, "negative": 0.0 },
-      "landing": { "positive": 0.0, "negative": 0.0 }
+      "clean": {
+        "positive": 6.0,
+        "negative": -1.5
+      },
+      "takeoff": {
+        "positive": 0.0,
+        "negative": 0.0
+      },
+      "landing": {
+        "positive": 0.0,
+        "negative": 0.0
+      }
     }
   },
   "stall_speeds": {
     "clean": {
-      "weights": [1400, 1500, 1600],
-      "speeds": [50, 52, 54]
+      "weights": [
+        1400,
+        1500,
+        1600
+      ],
+      "speeds": [
+        50,
+        52,
+        54
+      ]
     },
     "takeoff": {
-      "weights": [1400, 1500, 1600],
-      "speeds": [47, 49, 51]
+      "weights": [
+        1400,
+        1500,
+        1600
+      ],
+      "speeds": [
+        47,
+        49,
+        51
+      ]
     },
     "landing": {
-      "weights": [1400, 1500, 1600],
-      "speeds": [43, 45, 48]
+      "weights": [
+        1400,
+        1500,
+        1600
+      ],
+      "speeds": [
+        43,
+        45,
+        48
+      ]
     }
   },
   "single_engine_limits": {
@@ -54,7 +109,7 @@
     }
   },
   "max_altitude": 18000,
-  "Vne": 200,
+  "Vne": 182,
   "Vno": 160,
   "Vfe": {
     "takeoff": 100,
@@ -66,19 +121,38 @@
     "landing": 1.9
   },
   "arcs": {
-    "white": [43, 80],
-    "green": [50, 160],
-    "yellow": [160, 200],
+    "white": [
+      43,
+      80
+    ],
+    "green": [
+      50,
+      160
+    ],
+    "yellow": [
+      160,
+      200
+    ],
     "red": 200
   },
   "empty_weight": 1020,
   "max_weight": 1600,
   "seats": 2,
-  "cg_range": [78.7, 86.8],
+  "cg_range": [
+    78.7,
+    86.8
+  ],
   "fuel_capacity_gal": 38,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
     "T_static_factor": 2.6,
     "V_max_kts": 200
-  }
+  },
+  "vspeeds_published_units": "MPH",
+  "sources": [
+    {
+      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 182 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "retrieved": "2026-05-15"
+    }
+  ]
 }
