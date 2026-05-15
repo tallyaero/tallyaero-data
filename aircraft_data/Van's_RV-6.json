@@ -154,5 +154,7 @@
       "publication": "Phase 2i (extended) \u2014 Vne overwritten to 182 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
       "retrieved": "2026-05-15"
     }
-  ]
+  ],
+  "Vx": 70,
+  "Vy": 90
 }

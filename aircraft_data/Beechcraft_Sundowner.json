@@ -155,5 +155,7 @@
       "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: Beechcraft Sundowner 180 C23 POH (M-1285 and after), Section II Airspeed Limitations. Confidence: high.",
       "retrieved": "2026-05-14"
     }
-  ]
+  ],
+  "Vx": 65,
+  "Vy": 80
 }
