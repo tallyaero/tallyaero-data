@@ -146,9 +146,19 @@
   "fuel_capacity_gal": 48,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 270
+    "T_static_factor": 2.5,
+    "V_max_kts": 270,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 85,
-  "Vy": 105
+  "Vy": 105,
+  "tcds_number": "n/a",
+  "tcds_holder": "ZIVKO AERONAUTICS INC.",
+  "sources": [
+    {
+      "publication": "Zivko Edge 540 published spec (Experimental/Aerobatic)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

@@ -145,16 +145,24 @@
   "fuel_capacity_gal": 19,
   "fuel_weight_per_gal": 6,
   "prop_thrust_decay": {
-    "T_static_factor": 2.4,
-    "V_max_kts": 135
+    "T_static_factor": 2.5,
+    "V_max_kts": 135,
+    "thrust_model": "piston_constant_speed"
   },
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: Pitts S-1C POH / FAA TCDS A18SO. Confidence: medium.",
+      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: Pitts S-1C POH / FAA TCDS A18SO. Confidence: medium.",
       "retrieved": "2026-05-14"
+    },
+    {
+      "publication": "FAA TCDS A18SO (Pitts S-1S/S-1T)",
+      "retrieved": "2026-05-15"
     }
   ],
   "Vx": 65,
-  "Vy": 80
+  "Vy": 80,
+  "tcds_number": "A18SO",
+  "tcds_holder": "AVIAT AIRCRAFT INC.",
+  "confidence": "partial"
 }

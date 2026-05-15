@@ -153,9 +153,19 @@
   "fuel_capacity_gal": 171,
   "fuel_weight_per_gal": 6.8,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 316
+    "T_static_factor": 3.0,
+    "V_max_kts": 316,
+    "thrust_model": "turboprop"
   },
   "Vx": 100,
-  "Vy": 130
+  "Vy": 130,
+  "tcds_number": "T00012WI",
+  "tcds_holder": "TEXTRON AVIATION (RAYTHEON AIRCRAFT)",
+  "sources": [
+    {
+      "publication": "FAA TCDS T00012WI (Beechcraft T-6 Texan II)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

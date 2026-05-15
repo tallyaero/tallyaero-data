@@ -139,16 +139,24 @@
   "fuel_capacity_gal": 14,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 125
+    "T_static_factor": 1.85,
+    "V_max_kts": 125,
+    "thrust_model": "piston_fixed_pitch"
   },
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: FAA TCDS A-694; Luscombe 8A POH. Confidence: high.",
+      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: FAA TCDS A-694; Luscombe 8A POH. Confidence: high.",
       "retrieved": "2026-05-14"
+    },
+    {
+      "publication": "FAA TCDS A-694 (Luscombe 8 series Silvaire)",
+      "retrieved": "2026-05-15"
     }
   ],
   "Vx": 52,
-  "Vy": 65
+  "Vy": 65,
+  "tcds_number": "A-694",
+  "tcds_holder": "LUSCOMBE AIRPLANE CORP.",
+  "confidence": "partial"
 }

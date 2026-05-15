@@ -214,9 +214,19 @@
   "fuel_capacity_gal": 123,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 177
+    "T_static_factor": 2.5,
+    "V_max_kts": 177,
+    "thrust_model": "turbocharged"
   },
   "Vx": 80,
-  "Vy": 89
+  "Vy": 89,
+  "tcds_number": "A7SO",
+  "tcds_holder": "PIPER AIRCRAFT INC.",
+  "sources": [
+    {
+      "publication": "FAA TCDS A7SO (Piper PA-34 Seneca)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

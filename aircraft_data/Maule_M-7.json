@@ -139,9 +139,19 @@
   "fuel_capacity_gal": 73,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 158
+    "T_static_factor": 2.5,
+    "V_max_kts": 158,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 52,
-  "Vy": 68
+  "Vy": 68,
+  "tcds_number": "A6SO",
+  "tcds_holder": "MAULE AEROSPACE TECHNOLOGY INC.",
+  "sources": [
+    {
+      "publication": "FAA TCDS A6SO (Maule M-4/M-5/M-6/M-7 series)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

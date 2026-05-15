@@ -139,9 +139,19 @@
   "fuel_capacity_gal": 55,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 173
+    "T_static_factor": 1.85,
+    "V_max_kts": 173,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 65,
-  "Vy": 80
+  "Vy": 80,
+  "tcds_number": "EASA.A.157",
+  "tcds_holder": "DAHER (SOCATA)",
+  "sources": [
+    {
+      "publication": "EASA TCDS A.157 (Socata TB-9/TB-10/TB-20/TB-21)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

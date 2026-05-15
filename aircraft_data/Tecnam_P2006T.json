@@ -214,9 +214,19 @@
   "fuel_capacity_gal": 52,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 160
+    "T_static_factor": 2.5,
+    "V_max_kts": 160,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 74,
-  "Vy": 82
+  "Vy": 82,
+  "tcds_number": "EASA.A.185",
+  "tcds_holder": "COSTRUZIONI AERONAUTICHE TECNAM",
+  "sources": [
+    {
+      "publication": "EASA TCDS A.185 (Tecnam P2006T light twin)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

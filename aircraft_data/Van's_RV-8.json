@@ -145,16 +145,24 @@
   "fuel_capacity_gal": 42,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 220
+    "T_static_factor": 1.85,
+    "V_max_kts": 220,
+    "thrust_model": "piston_fixed_pitch"
   },
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 200 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "publication": "Phase 2i (extended) — Vne overwritten to 200 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Van's RV-8 Pilot's Operating Handbook",
       "retrieved": "2026-05-15"
     }
   ],
   "Vx": 75,
-  "Vy": 95
+  "Vy": 95,
+  "tcds_number": "Experimental",
+  "tcds_holder": "VAN'S AIRCRAFT INC.",
+  "confidence": "partial"
 }

@@ -153,9 +153,19 @@
   "fuel_capacity_gal": 35,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 143
+    "T_static_factor": 1.85,
+    "V_max_kts": 143,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 55,
-  "Vy": 70
+  "Vy": 70,
+  "tcds_number": "A-759",
+  "tcds_holder": "AMERICAN CHAMPION AIRCRAFT CORP",
+  "sources": [
+    {
+      "publication": "FAA TCDS A-759 (Champion/Bellanca/ACA 7-series Citabria)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

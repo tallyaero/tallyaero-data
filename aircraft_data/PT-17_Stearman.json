@@ -145,16 +145,24 @@
   "fuel_capacity_gal": 46,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 157
+    "T_static_factor": 1.85,
+    "V_max_kts": 157,
+    "thrust_model": "piston_fixed_pitch"
   },
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 162 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "publication": "Phase 2i (extended) — Vne overwritten to 162 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "FAA TCDS A-743 (Boeing E75/A75N1/PT-17/PT-13)",
       "retrieved": "2026-05-15"
     }
   ],
   "Vx": 58,
-  "Vy": 72
+  "Vy": 72,
+  "tcds_number": "A-743",
+  "tcds_holder": "BOEING/STEARMAN",
+  "confidence": "partial"
 }

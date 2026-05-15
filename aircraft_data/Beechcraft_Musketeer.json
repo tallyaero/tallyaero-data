@@ -146,9 +146,19 @@
   "fuel_capacity_gal": 57,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 156
+    "T_static_factor": 1.85,
+    "V_max_kts": 156,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 65,
-  "Vy": 80
+  "Vy": 80,
+  "tcds_number": "A12CE",
+  "tcds_holder": "TEXTRON AVIATION INC.",
+  "sources": [
+    {
+      "publication": "FAA TCDS A12CE (Beechcraft 19/23/24 Sport/Musketeer)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 46,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 220
+    "T_static_factor": 2.5,
+    "V_max_kts": 220,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 78,
-  "Vy": 95
+  "Vy": 95,
+  "tcds_number": "EASA.A.072",
+  "tcds_holder": "MUDRY AVIATION (CAP AVIATION)",
+  "sources": [
+    {
+      "publication": "EASA TCDS A.072 (Mudry CAP 21/231/232)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

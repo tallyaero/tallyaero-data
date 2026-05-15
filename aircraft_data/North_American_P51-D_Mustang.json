@@ -146,16 +146,24 @@
   "fuel_capacity_gal": 180,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 505
+    "T_static_factor": 2.5,
+    "V_max_kts": 505,
+    "thrust_model": "piston_constant_speed"
   },
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 439 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "publication": "Phase 2i (extended) — Vne overwritten to 439 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "AAF Manual 51-127-5 P-51D Pilot's Flight Operating Instructions (1945)",
       "retrieved": "2026-05-15"
     }
   ],
   "Vx": 120,
-  "Vy": 160
+  "Vy": 160,
+  "tcds_number": "Military",
+  "tcds_holder": "NORTH AMERICAN AVIATION INC.",
+  "confidence": "partial"
 }

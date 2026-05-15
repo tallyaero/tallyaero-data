@@ -214,9 +214,19 @@
   "fuel_capacity_gal": 76,
   "fuel_weight_per_gal": 6.7,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 194
+    "T_static_factor": 2.5,
+    "V_max_kts": 194,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 78,
-  "Vy": 85
+  "Vy": 85,
+  "tcds_number": "A56CE",
+  "tcds_holder": "DIAMOND AIRCRAFT INDUSTRIES",
+  "sources": [
+    {
+      "publication": "FAA TCDS A56CE Rev (Diamond DA42 NG)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

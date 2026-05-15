@@ -146,9 +146,19 @@
   "fuel_capacity_gal": 13,
   "fuel_weight_per_gal": 6,
   "prop_thrust_decay": {
-    "T_static_factor": 2.4,
-    "V_max_kts": 122
+    "T_static_factor": 1.85,
+    "V_max_kts": 122,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 48,
-  "Vy": 60
+  "Vy": 60,
+  "tcds_number": "A-759",
+  "tcds_holder": "AERONCA AIRCRAFT CORP",
+  "sources": [
+    {
+      "publication": "FAA TCDS A-759 (Aeronca 7-series)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

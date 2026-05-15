@@ -146,9 +146,19 @@
   "fuel_capacity_gal": 90,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 200
+    "T_static_factor": 2.5,
+    "V_max_kts": 200,
+    "thrust_model": "turbocharged"
   },
   "Vx": 68,
-  "Vy": 96
+  "Vy": 96,
+  "tcds_number": "3A21",
+  "tcds_holder": "TEXTRON AVIATION INC.",
+  "sources": [
+    {
+      "publication": "FAA TCDS 3A21 (Cessna 205/206/207/210)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }
