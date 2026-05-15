@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 41,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 220
+    "T_static_factor": 2.5,
+    "V_max_kts": 220,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 75,
-  "Vy": 95
+  "Vy": 95,
+  "tcds_number": "EASA.A.034",
+  "tcds_holder": "EXTRA FLUGZEUGPRODUKTIONS- UND VERTRIEBS-GmbH",
+  "sources": [
+    {
+      "publication": "EASA TCDS A.034 (Extra EA-300 series)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

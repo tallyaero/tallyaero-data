@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 24.5,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 146
+    "T_static_factor": 1.85,
+    "V_max_kts": 146,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 55,
-  "Vy": 69
+  "Vy": 69,
+  "tcds_number": "n/a",
+  "tcds_holder": "CESSNA / TEXTRON AVIATION",
+  "sources": [
+    {
+      "publication": "ASTM F2245 (LSA) + Cessna 162 POH (2010)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 52,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 190
+    "T_static_factor": 1.85,
+    "V_max_kts": 190,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 67,
-  "Vy": 82
+  "Vy": 82,
+  "tcds_number": "A16EA",
+  "tcds_holder": "AMERICAN AIRCRAFT CORP",
+  "sources": [
+    {
+      "publication": "FAA TCDS A16EA (Grumman/American AA-5/AA-5A Cheetah)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

@@ -140,9 +140,19 @@
   "fuel_capacity_gal": 100,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 200
+    "T_static_factor": 2.5,
+    "V_max_kts": 200,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 80,
-  "Vy": 105
+  "Vy": 105,
+  "tcds_number": "2A3",
+  "tcds_holder": "Mooney Aircraft Corporation",
+  "sources": [
+    {
+      "publication": "FAA TCDS 2A3 Rev 44 (12/19/1997)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

@@ -213,9 +213,19 @@
   "fuel_capacity_gal": 108,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 202
+    "T_static_factor": 2.5,
+    "V_max_kts": 202,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 82,
-  "Vy": 88
+  "Vy": 88,
+  "tcds_number": "A19SO",
+  "tcds_holder": "PIPER AIRCRAFT INC.",
+  "sources": [
+    {
+      "publication": "FAA TCDS A19SO (Piper PA-44 Seminole)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

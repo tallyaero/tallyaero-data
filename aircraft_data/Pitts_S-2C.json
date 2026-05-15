@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 27,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 204
+    "T_static_factor": 2.5,
+    "V_max_kts": 204,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 72,
-  "Vy": 88
+  "Vy": 88,
+  "tcds_number": "A21SO",
+  "tcds_holder": "AVIAT AIRCRAFT INC.",
+  "sources": [
+    {
+      "publication": "FAA TCDS A21SO (Pitts S-2A/S-2B/S-2C)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

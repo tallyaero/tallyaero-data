@@ -139,9 +139,19 @@
   "fuel_capacity_gal": 48,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 158
+    "T_static_factor": 1.85,
+    "V_max_kts": 158,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 63,
-  "Vy": 79
+  "Vy": 79,
+  "tcds_number": "2A13",
+  "tcds_holder": "Piper Aircraft Inc.",
+  "sources": [
+    {
+      "publication": "FAA TCDS 2A13 Rev 58 (12/22/2017)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

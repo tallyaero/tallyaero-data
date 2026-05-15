@@ -145,16 +145,24 @@
   "fuel_capacity_gal": 18,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 118
+    "T_static_factor": 1.85,
+    "V_max_kts": 118,
+    "thrust_model": "piston_fixed_pitch"
   },
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: FAA TCDS A-696 Taylorcraft BC-12D; AOPA factsheet. Confidence: medium.",
+      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: FAA TCDS A-696 Taylorcraft BC-12D; AOPA factsheet. Confidence: medium.",
       "retrieved": "2026-05-14"
+    },
+    {
+      "publication": "FAA TCDS A-696 (Taylorcraft BC/BC-12)",
+      "retrieved": "2026-05-15"
     }
   ],
   "Vx": 48,
-  "Vy": 60
+  "Vy": 60,
+  "tcds_number": "A-696",
+  "tcds_holder": "TAYLORCRAFT AVIATION",
+  "confidence": "partial"
 }

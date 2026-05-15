@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 52,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 250
+    "T_static_factor": 2.5,
+    "V_max_kts": 250,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 85,
-  "Vy": 105
+  "Vy": 105,
+  "tcds_number": "n/a",
+  "tcds_holder": "SUKHOI DESIGN BUREAU",
+  "sources": [
+    {
+      "publication": "Sukhoi OKB Type Specification (no FAA TCDS; sport-aerobatic)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

@@ -214,9 +214,19 @@
   "fuel_capacity_gal": 144,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 197
+    "T_static_factor": 2.5,
+    "V_max_kts": 197,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 90,
-  "Vy": 105
+  "Vy": 105,
+  "tcds_number": "1A10",
+  "tcds_holder": "PIPER AIRCRAFT INC.",
+  "sources": [
+    {
+      "publication": "FAA TCDS 1A10 (Piper PA-23 Apache/Aztec)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

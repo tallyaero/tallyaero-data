@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 20,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 136
+    "T_static_factor": 1.85,
+    "V_max_kts": 136,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 55,
-  "Vy": 70
+  "Vy": 70,
+  "tcds_number": "Experimental",
+  "tcds_holder": "VAN'S AIRCRAFT INC.",
+  "sources": [
+    {
+      "publication": "Van's RV-12 Pilot's Operating Handbook (ELSA)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

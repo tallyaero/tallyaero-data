@@ -146,16 +146,24 @@
   "fuel_capacity_gal": 250,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.7,
-    "V_max_kts": 343
+    "T_static_factor": 2.5,
+    "V_max_kts": 343,
+    "thrust_model": "piston_constant_speed"
   },
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: F6F-5 Pilot's Flight Operating Instructions (US Navy AN 01-85FD-1, 1944-era). Confidence: medium.",
+      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: F6F-5 Pilot's Flight Operating Instructions (US Navy AN 01-85FD-1, 1944-era). Confidence: medium.",
       "retrieved": "2026-05-14"
+    },
+    {
+      "publication": "NAVAIR 01-85FB-1 F6F-5 Pilot's Handbook (US Navy, 1945)",
+      "retrieved": "2026-05-15"
     }
   ],
   "Vx": 110,
-  "Vy": 150
+  "Vy": 150,
+  "tcds_number": "Military",
+  "tcds_holder": "GRUMMAN AIRCRAFT ENGINEERING CORP.",
+  "confidence": "partial"
 }

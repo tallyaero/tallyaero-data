@@ -146,9 +146,19 @@
   "fuel_capacity_gal": 98,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 175
+    "T_static_factor": 2.5,
+    "V_max_kts": 175,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 72,
-  "Vy": 94
+  "Vy": 94,
+  "tcds_number": "A3SO",
+  "tcds_holder": "The New Piper Aircraft Inc.",
+  "sources": [
+    {
+      "publication": "FAA TCDS A3SO Rev 27 (11/25/2003)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

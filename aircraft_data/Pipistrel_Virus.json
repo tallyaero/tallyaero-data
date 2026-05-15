@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 26.4,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 160
+    "T_static_factor": 1.85,
+    "V_max_kts": 160,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 58,
-  "Vy": 70
+  "Vy": 70,
+  "tcds_number": "ASTM F2245",
+  "tcds_holder": "PIPISTREL d.o.o. AJDOVSCINA",
+  "sources": [
+    {
+      "publication": "ASTM F2245 (Pipistrel Virus SW100 SLSA)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

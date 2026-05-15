@@ -146,16 +146,24 @@
   "fuel_capacity_gal": 36,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 216
+    "T_static_factor": 2.5,
+    "V_max_kts": 216,
+    "thrust_model": "piston_constant_speed"
   },
   "vspeeds_published_units": "km/h",
   "sources": [
     {
-      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 117 KIAS per primary-source research (originally published in km/h). See docs/vne_unit_research.json for the cited source.",
+      "publication": "Phase 2i (extended) — Vne overwritten to 117 KIAS per primary-source research (originally published in km/h). See docs/vne_unit_research.json for the cited source.",
+      "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "EASA TCDS A.030 (Zlin Z-42/142/242 family)",
       "retrieved": "2026-05-15"
     }
   ],
   "Vx": 62,
-  "Vy": 78
+  "Vy": 78,
+  "tcds_number": "EASA.A.030",
+  "tcds_holder": "MORAVAN ZLIN",
+  "confidence": "partial"
 }

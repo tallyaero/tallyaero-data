@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 52,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 185
+    "T_static_factor": 1.85,
+    "V_max_kts": 185,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 68,
-  "Vy": 84
+  "Vy": 84,
+  "tcds_number": "EASA.A.157",
+  "tcds_holder": "DAHER (SOCATA)",
+  "sources": [
+    {
+      "publication": "EASA TCDS A.157 (Socata TB-10 Tobago)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

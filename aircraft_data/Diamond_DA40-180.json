@@ -152,9 +152,19 @@
   "fuel_capacity_gal": 50,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 181
+    "T_static_factor": 1.85,
+    "V_max_kts": 181,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 66,
-  "Vy": 73
+  "Vy": 73,
+  "tcds_number": "A47CE",
+  "tcds_holder": "DIAMOND AIRCRAFT INDUSTRIES",
+  "sources": [
+    {
+      "publication": "FAA TCDS A47CE (Diamond DA-40 series)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

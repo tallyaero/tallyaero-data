@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 41.2,
   "fuel_weight_per_gal": 6.7,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 172
+    "T_static_factor": 1.85,
+    "V_max_kts": 172,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 66,
-  "Vy": 76
+  "Vy": 76,
+  "tcds_number": "A47CE",
+  "tcds_holder": "DIAMOND AIRCRAFT INDUSTRIES",
+  "sources": [
+    {
+      "publication": "FAA TCDS A47CE Rev (Diamond DA40 NG, AE300 engine)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

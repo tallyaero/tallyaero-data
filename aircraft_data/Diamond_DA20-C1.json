@@ -152,9 +152,19 @@
   "fuel_capacity_gal": 24,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 160
+    "T_static_factor": 1.85,
+    "V_max_kts": 160,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 60,
-  "Vy": 75
+  "Vy": 75,
+  "tcds_number": "TA4CH",
+  "tcds_holder": "Diamond Aircraft Industries",
+  "sources": [
+    {
+      "publication": "FAA TCDS TA4CH Rev 10 (10/24/2002)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

@@ -146,9 +146,19 @@
   "fuel_capacity_gal": 48,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 143
+    "T_static_factor": 1.85,
+    "V_max_kts": 143,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 52,
-  "Vy": 65
+  "Vy": 65,
+  "tcds_number": "A-759",
+  "tcds_holder": "AMERICAN CHAMPION AIRCRAFT CORP",
+  "sources": [
+    {
+      "publication": "FAA TCDS A-759 (ACA 8GCBC Scout)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

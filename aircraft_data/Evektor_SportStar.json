@@ -145,9 +145,19 @@
   "fuel_capacity_gal": 27,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 138
+    "T_static_factor": 1.85,
+    "V_max_kts": 138,
+    "thrust_model": "piston_fixed_pitch"
   },
   "Vx": 52,
-  "Vy": 65
+  "Vy": 65,
+  "tcds_number": "ASTM F2245",
+  "tcds_holder": "EVEKTOR-AEROTECHNIK A.S.",
+  "sources": [
+    {
+      "publication": "ASTM F2245 (Evektor SportStar SLSA)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

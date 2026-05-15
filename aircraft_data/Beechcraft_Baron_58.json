@@ -180,9 +180,19 @@
   "fuel_capacity_gal": 194,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 223
+    "T_static_factor": 2.5,
+    "V_max_kts": 223,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 84,
-  "Vy": 100
+  "Vy": 100,
+  "tcds_number": "3A16",
+  "tcds_holder": "Beechcraft Corporation",
+  "sources": [
+    {
+      "publication": "FAA TCDS 3A16 Rev 91 (12/21/2015)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }

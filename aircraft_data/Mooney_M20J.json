@@ -140,9 +140,19 @@
   "fuel_capacity_gal": 64,
   "fuel_weight_per_gal": 6.0,
   "prop_thrust_decay": {
-    "T_static_factor": 2.6,
-    "V_max_kts": 195
+    "T_static_factor": 2.5,
+    "V_max_kts": 195,
+    "thrust_model": "piston_constant_speed"
   },
   "Vx": 79,
-  "Vy": 96
+  "Vy": 96,
+  "tcds_number": "2A3",
+  "tcds_holder": "MOONEY INTERNATIONAL CORP.",
+  "sources": [
+    {
+      "publication": "FAA TCDS 2A3 (Mooney M20-series)",
+      "retrieved": "2026-05-15"
+    }
+  ],
+  "confidence": "partial"
 }
