@@ -113,7 +113,11 @@
       "landing_down": 90
     },
     "best_glide": 110,
-    "best_glide_ratio": 11.8
+    "best_glide_ratio": 11.8,
+    "service_ceiling_ft": 7400,
+    "rate_of_climb_sl_fpm": 270,
+    "cruise_kt": 140,
+    "fuel_burn_gph": 11
   },
   "engine_options": {
     "Continental IO-520-M": {
@@ -226,6 +230,11 @@
     {
       "publication": "FAA TCDS 3A10 Rev 61 (11/15/1997)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Cessna 310R Pilot's Operating Handbook",
+      "page": "Section 5 - Performance, single-engine",
+      "notes": "The 310R has a notoriously low SE service ceiling; values reflect standard atmosphere gross weight."
     }
   ],
   "confidence": "partial"

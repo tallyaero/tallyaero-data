@@ -113,7 +113,11 @@
       "landing_down": 76
     },
     "best_glide": 88,
-    "best_glide_ratio": 10.2
+    "best_glide_ratio": 10.2,
+    "service_ceiling_ft": 18000,
+    "rate_of_climb_sl_fpm": 220,
+    "cruise_kt": 120,
+    "fuel_burn_gph": 5
   },
   "engine_options": {
     "Lycoming IO-360-M1A": {
@@ -226,6 +230,10 @@
     {
       "publication": "FAA TCDS A56CE (Diamond DA42 TwinStar)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Diamond DA42 L360 Airplane Flight Manual",
+      "page": "Section 5 - Performance, OEI"
     }
   ],
   "confidence": "partial"
