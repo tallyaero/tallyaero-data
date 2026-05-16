@@ -113,7 +113,11 @@
       "landing_down": 78
     },
     "best_glide": 91,
-    "best_glide_ratio": 9.5
+    "best_glide_ratio": 9.5,
+    "service_ceiling_ft": 7000,
+    "rate_of_climb_sl_fpm": 230,
+    "cruise_kt": 130,
+    "fuel_burn_gph": 12
   },
   "engine_options": {
     "Lycoming TIO-540-C1A": {
@@ -226,6 +230,10 @@
     {
       "publication": "FAA TCDS 1A10 (Piper PA-23 Apache/Aztec)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Piper PA-23-250 Aztec F Pilot's Operating Handbook",
+      "page": "Section 5 - Performance, single-engine"
     }
   ],
   "confidence": "partial"

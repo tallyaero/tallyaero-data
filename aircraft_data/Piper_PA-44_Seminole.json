@@ -112,7 +112,11 @@
       "landing_down": 78
     },
     "best_glide": 106,
-    "best_glide_ratio": 9.5
+    "best_glide_ratio": 9.5,
+    "service_ceiling_ft": 3800,
+    "rate_of_climb_sl_fpm": 217,
+    "cruise_kt": 120,
+    "fuel_burn_gph": 9
   },
   "engine_options": {
     "Lycoming O-360-A1H6": {
@@ -225,6 +229,10 @@
     {
       "publication": "FAA TCDS A19SO (Piper PA-44 Seminole)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Piper PA-44 Seminole Pilot's Operating Handbook",
+      "page": "Section 5 - Performance, single-engine"
     }
   ],
   "confidence": "partial"

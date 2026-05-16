@@ -113,7 +113,11 @@
       "landing_down": 71
     },
     "best_glide": 87,
-    "best_glide_ratio": 9.5
+    "best_glide_ratio": 9.5,
+    "service_ceiling_ft": 13400,
+    "rate_of_climb_sl_fpm": 190,
+    "cruise_kt": 120,
+    "fuel_burn_gph": 10
   },
   "engine_options": {
     "Lycoming TSIO-360-RB": {
@@ -226,6 +230,11 @@
     {
       "publication": "FAA TCDS A7SO (Piper PA-34 Seneca)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Piper PA-34 Seneca II Pilot's Operating Handbook",
+      "page": "Section 5 - Performance, single-engine",
+      "notes": "Values from Seneca II; III/V variants run higher SE ceiling. Verify with your specific airframe POH."
     }
   ],
   "confidence": "partial"

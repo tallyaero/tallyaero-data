@@ -113,7 +113,11 @@
       "landing_down": 76
     },
     "best_glide": 88,
-    "best_glide_ratio": 10.2
+    "best_glide_ratio": 10.2,
+    "service_ceiling_ft": 18000,
+    "rate_of_climb_sl_fpm": 240,
+    "cruise_kt": 130,
+    "fuel_burn_gph": 5.5
   },
   "engine_options": {
     "Austro AE300": {
@@ -226,6 +230,10 @@
     {
       "publication": "FAA TCDS A56CE Rev (Diamond DA42 NG)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Diamond DA42 NG Airplane Flight Manual",
+      "page": "Section 5 - Performance, OEI"
     }
   ],
   "confidence": "partial"

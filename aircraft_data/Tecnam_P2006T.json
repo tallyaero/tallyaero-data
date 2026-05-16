@@ -113,7 +113,11 @@
       "landing_down": 73
     },
     "best_glide": 79,
-    "best_glide_ratio": 9.5
+    "best_glide_ratio": 9.5,
+    "service_ceiling_ft": 11000,
+    "rate_of_climb_sl_fpm": 220,
+    "cruise_kt": 110,
+    "fuel_burn_gph": 5
   },
   "engine_options": {
     "Rotax 912S3": {
@@ -226,6 +230,10 @@
     {
       "publication": "EASA TCDS A.185 (Tecnam P2006T light twin)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Tecnam P2006T Airplane Flight Manual",
+      "page": "Section 5 - Performance, OEI"
     }
   ],
   "confidence": "partial"

@@ -113,7 +113,11 @@
       "landing_down": 86
     },
     "best_glide": 91,
-    "best_glide_ratio": 9.5
+    "best_glide_ratio": 9.5,
+    "service_ceiling_ft": 7100,
+    "rate_of_climb_sl_fpm": 260,
+    "cruise_kt": 130,
+    "fuel_burn_gph": 8
   },
   "engine_options": {
     "Lycoming IO-320-B1A": {
@@ -221,12 +225,16 @@
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: Piper PA-30 Twin Comanche POH (1963-1972). Confidence: medium.",
+      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: Piper PA-30 Twin Comanche POH (1963-1972). Confidence: medium.",
       "retrieved": "2026-05-14"
     },
     {
       "publication": "FAA TCDS A1EA (Piper PA-30/PA-39 Twin Comanche)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Piper PA-30 Twin Comanche Pilot's Operating Handbook",
+      "page": "Section 5 - Performance, single-engine"
     }
   ],
   "Vx": 90,

@@ -113,7 +113,11 @@
       "landing_down": 76
     },
     "best_glide": 95,
-    "best_glide_ratio": 10.2
+    "best_glide_ratio": 10.2,
+    "service_ceiling_ft": 14000,
+    "rate_of_climb_sl_fpm": 270,
+    "cruise_kt": 140,
+    "fuel_burn_gph": 6
   },
   "engine_options": {
     "Austro AE330": {
@@ -226,6 +230,10 @@
     {
       "publication": "FAA TCDS A00010NY (Diamond DA62)",
       "retrieved": "2026-05-15"
+    },
+    {
+      "publication": "Diamond DA62 Airplane Flight Manual",
+      "page": "Section 5 - Performance, OEI"
     }
   ],
   "confidence": "partial"
