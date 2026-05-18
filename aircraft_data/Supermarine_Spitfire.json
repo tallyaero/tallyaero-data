@@ -153,7 +153,7 @@
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i (extended) — Vne overwritten to 391 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 391 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
       "retrieved": "2026-05-15"
     },
     {
@@ -165,5 +165,14 @@
   "Vy": 155,
   "tcds_number": "Military",
   "tcds_holder": "SUPERMARINE AVIATION WORKS",
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 120.0,
+    "bank_response_tau_s": 0.621,
+    "speed_response_tau_s": 4.5,
+    "takeoff_accel_factor": 0.582,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

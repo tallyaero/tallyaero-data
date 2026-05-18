@@ -237,5 +237,14 @@
       "notes": "Values from Seneca II; III/V variants run higher SE ceiling. Verify with your specific airframe POH."
     }
   ],
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 25.0,
+    "bank_response_tau_s": 2.979,
+    "speed_response_tau_s": 3.1,
+    "takeoff_accel_factor": 0.41,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

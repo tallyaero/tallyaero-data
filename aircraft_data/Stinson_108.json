@@ -146,7 +146,7 @@
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: FAA TCDS A-767 Stinson 108. Confidence: high.",
+      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: FAA TCDS A-767 Stinson 108. Confidence: high.",
       "retrieved": "2026-05-14"
     },
     {
@@ -158,5 +158,14 @@
   "Vy": 70,
   "tcds_number": "A-767",
   "tcds_holder": "CONSOLIDATED VULTEE AIRCRAFT (STINSON DIV)",
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 45.0,
+    "bank_response_tau_s": 1.655,
+    "speed_response_tau_s": 2.15,
+    "takeoff_accel_factor": 0.35,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

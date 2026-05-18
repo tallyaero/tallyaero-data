@@ -87,7 +87,7 @@
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: Pitts S-1C variant (TB = taper-bottom wing modification). Confidence: medium.",
+      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: Pitts S-1C variant (TB = taper-bottom wing modification). Confidence: medium.",
       "retrieved": "2026-05-14"
     },
     {
@@ -99,5 +99,14 @@
   "Vy": 80,
   "tcds_number": "A18SO",
   "tcds_holder": "AVIAT AIRCRAFT INC.",
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 40.0,
+    "bank_response_tau_s": 1.862,
+    "speed_response_tau_s": 1.57,
+    "takeoff_accel_factor": 1.0,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

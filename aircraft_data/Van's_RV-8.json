@@ -152,7 +152,7 @@
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i (extended) — Vne overwritten to 200 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
+      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 200 KIAS per primary-source research (originally published in MPH). See docs/vne_unit_research.json for the cited source.",
       "retrieved": "2026-05-15"
     },
     {
@@ -164,5 +164,14 @@
   "Vy": 95,
   "tcds_number": "Experimental",
   "tcds_holder": "VAN'S AIRCRAFT INC.",
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 120.0,
+    "bank_response_tau_s": 0.621,
+    "speed_response_tau_s": 1.9,
+    "takeoff_accel_factor": 0.453,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

@@ -159,5 +159,14 @@
       "retrieved": "2026-05-15"
     }
   ],
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 120.0,
+    "bank_response_tau_s": 0.621,
+    "speed_response_tau_s": 2.05,
+    "takeoff_accel_factor": 0.65,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

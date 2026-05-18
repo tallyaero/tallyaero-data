@@ -153,11 +153,11 @@
   "vspeeds_published_units": "km/h",
   "sources": [
     {
-      "publication": "Phase 2i (extended) — Vne overwritten to 356 KIAS per primary-source research (originally published in km/h). See docs/vne_unit_research.json for the cited source.",
+      "publication": "Phase 2i (extended) \u2014 Vne overwritten to 356 KIAS per primary-source research (originally published in km/h). See docs/vne_unit_research.json for the cited source.",
       "retrieved": "2026-05-15"
     },
     {
-      "publication": "Jane's All The World's Aircraft 1945–46 (A6M5 Reisen)",
+      "publication": "Jane's All The World's Aircraft 1945\u201346 (A6M5 Reisen)",
       "retrieved": "2026-05-15"
     }
   ],
@@ -165,5 +165,14 @@
   "Vy": 130,
   "tcds_number": "Military",
   "tcds_holder": "MITSUBISHI HEAVY INDUSTRIES",
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 35.0,
+    "bank_response_tau_s": 2.128,
+    "speed_response_tau_s": 4.4,
+    "takeoff_accel_factor": 0.581,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

@@ -153,7 +153,7 @@
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: Aeronca 11AC Chief Pilot's Operating Manual / FAA TCDS A-781. Confidence: high.",
+      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: Aeronca 11AC Chief Pilot's Operating Manual / FAA TCDS A-781. Confidence: high.",
       "retrieved": "2026-05-14"
     },
     {
@@ -165,5 +165,14 @@
   "Vy": 60,
   "tcds_number": "A-781",
   "tcds_holder": "AERONCA AIRCRAFT CORP",
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 40.0,
+    "bank_response_tau_s": 1.862,
+    "speed_response_tau_s": 1.61,
+    "takeoff_accel_factor": 0.384,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

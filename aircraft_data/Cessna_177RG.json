@@ -153,7 +153,7 @@
   "vspeeds_published_units": "MPH",
   "sources": [
     {
-      "publication": "Phase 2i unit-canonicalization: MPH → KIAS (÷ 1.15078). Research source: Cessna 177RG Cardinal RG POH (1971-1978). Confidence: medium.",
+      "publication": "Phase 2i unit-canonicalization: MPH \u2192 KIAS (\u00f7 1.15078). Research source: Cessna 177RG Cardinal RG POH (1971-1978). Confidence: medium.",
       "retrieved": "2026-05-14"
     },
     {
@@ -165,5 +165,14 @@
   "Vy": 84,
   "tcds_number": "A20CE",
   "tcds_holder": "Textron Aviation Inc.",
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 35.0,
+    "bank_response_tau_s": 2.128,
+    "speed_response_tau_s": 2.33,
+    "takeoff_accel_factor": 0.379,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }

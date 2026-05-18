@@ -237,5 +237,14 @@
       "notes": "The 310R has a notoriously low SE service ceiling; values reflect standard atmosphere gross weight."
     }
   ],
-  "confidence": "partial"
+  "confidence": "partial",
+  "performance_dynamics": {
+    "roll_rate_dps": 25.0,
+    "bank_response_tau_s": 2.979,
+    "speed_response_tau_s": 3.75,
+    "takeoff_accel_factor": 0.319,
+    "inter_maneuver_pause_s": 1.0,
+    "provenance": "class_derived",
+    "poh_citation": null
+  }
 }
