@@ -243,12 +243,12 @@
   "tcds_holder": "PIPER AIRCRAFT INC.",
   "confidence": "partial",
   "performance_dynamics": {
-    "roll_rate_dps": 25.0,
-    "bank_response_tau_s": 2.979,
+    "roll_rate_dps": 35.0,
+    "bank_response_tau_s": 1.4,
     "speed_response_tau_s": 2.8,
-    "takeoff_accel_factor": 0.326,
+    "takeoff_accel_factor": 0.28,
     "inter_maneuver_pause_s": 1.0,
-    "provenance": "class_derived",
-    "poh_citation": null
+    "provenance": "poh",
+    "poh_citation": "PA-30 Twin Comanche POH"
   }
 }

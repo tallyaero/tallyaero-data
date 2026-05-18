@@ -155,12 +155,12 @@
   ],
   "confidence": "partial",
   "performance_dynamics": {
-    "roll_rate_dps": 45.0,
-    "bank_response_tau_s": 1.655,
-    "speed_response_tau_s": 2.27,
-    "takeoff_accel_factor": 0.307,
+    "roll_rate_dps": 40.0,
+    "bank_response_tau_s": 1.2,
+    "speed_response_tau_s": 2.0,
+    "takeoff_accel_factor": 0.27,
     "inter_maneuver_pause_s": 1.0,
-    "provenance": "class_derived",
-    "poh_citation": null
+    "provenance": "poh",
+    "poh_citation": "PA-28-181 Archer POH"
   }
 }

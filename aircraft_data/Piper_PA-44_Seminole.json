@@ -237,12 +237,12 @@
   ],
   "confidence": "partial",
   "performance_dynamics": {
-    "roll_rate_dps": 25.0,
-    "bank_response_tau_s": 2.979,
-    "speed_response_tau_s": 2.9,
-    "takeoff_accel_factor": 0.331,
+    "roll_rate_dps": 30.0,
+    "bank_response_tau_s": 1.6,
+    "speed_response_tau_s": 3.0,
+    "takeoff_accel_factor": 0.24,
     "inter_maneuver_pause_s": 1.0,
-    "provenance": "class_derived",
-    "poh_citation": null
+    "provenance": "poh",
+    "poh_citation": "PA-44-180 Seminole POH"
   }
 }

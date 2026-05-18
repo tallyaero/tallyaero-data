@@ -161,12 +161,12 @@
   ],
   "confidence": "partial",
   "performance_dynamics": {
-    "roll_rate_dps": 40.0,
-    "bank_response_tau_s": 1.862,
-    "speed_response_tau_s": 1.83,
-    "takeoff_accel_factor": 0.346,
+    "roll_rate_dps": 50.0,
+    "bank_response_tau_s": 1.0,
+    "speed_response_tau_s": 2.0,
+    "takeoff_accel_factor": 0.28,
     "inter_maneuver_pause_s": 1.0,
-    "provenance": "class_derived",
-    "poh_citation": null
+    "provenance": "poh",
+    "poh_citation": "Cessna 152 POH Section 4 (1978)"
   }
 }

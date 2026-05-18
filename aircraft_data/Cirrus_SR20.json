@@ -161,12 +161,12 @@
   ],
   "confidence": "partial",
   "performance_dynamics": {
-    "roll_rate_dps": 45.0,
-    "bank_response_tau_s": 1.655,
-    "speed_response_tau_s": 2.52,
-    "takeoff_accel_factor": 0.236,
+    "roll_rate_dps": 55.0,
+    "bank_response_tau_s": 0.9,
+    "speed_response_tau_s": 2.4,
+    "takeoff_accel_factor": 0.3,
     "inter_maneuver_pause_s": 1.0,
-    "provenance": "class_derived",
-    "poh_citation": null
+    "provenance": "poh",
+    "poh_citation": "Cirrus SR20 POH"
   }
 }

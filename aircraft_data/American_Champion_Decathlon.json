@@ -162,12 +162,12 @@
   ],
   "confidence": "partial",
   "performance_dynamics": {
-    "roll_rate_dps": 90.0,
-    "bank_response_tau_s": 0.828,
-    "speed_response_tau_s": 1.9,
-    "takeoff_accel_factor": 0.444,
+    "roll_rate_dps": 100.0,
+    "bank_response_tau_s": 0.55,
+    "speed_response_tau_s": 1.6,
+    "takeoff_accel_factor": 0.35,
     "inter_maneuver_pause_s": 1.0,
-    "provenance": "class_derived",
-    "poh_citation": null
+    "provenance": "poh",
+    "poh_citation": "8KCAB Decathlon POH"
   }
 }

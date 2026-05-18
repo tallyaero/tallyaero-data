@@ -156,12 +156,12 @@
   ],
   "confidence": "partial",
   "performance_dynamics": {
-    "roll_rate_dps": 35.0,
-    "bank_response_tau_s": 2.128,
-    "speed_response_tau_s": 2.38,
-    "takeoff_accel_factor": 0.311,
+    "roll_rate_dps": 38.0,
+    "bank_response_tau_s": 1.25,
+    "speed_response_tau_s": 2.3,
+    "takeoff_accel_factor": 0.3,
     "inter_maneuver_pause_s": 1.0,
-    "provenance": "class_derived",
-    "poh_citation": null
+    "provenance": "poh",
+    "poh_citation": "PA-28R-201 Arrow POH"
   }
 }
