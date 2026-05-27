@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Backups from scripts (regenerable)
+airports/airports.json.bak
+airports/*.bak
